@@ -1,0 +1,121 @@
+*{
+margin:0px;
+
+}
+
+h1{
+    padding:3px;
+
+}
+
+h3{
+    padding:3px;
+
+}
+
+/* Default styles for all screen sizes */
+p {
+    Display:flex;
+    padding:3px;
+    font-size: 16px;
+}
+
+/*Yellow/Orange div*/
+#secondDiv {
+    Display:flex;
+    flex-direction:column;
+    justified-column:centre;
+    text-align:centre;
+    height: 200px;
+    width: 150px;
+    padding:calc(20%);
+    background: orange;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#secondDiv a:hover {
+overflow: visible;
+}
+
+/*Green div - General div*/
+div {
+    Display:flex;
+    height: 150px;
+    width: calc(100%);
+    padding:150px;
+    background: green;
+
+}
+
+/* red div*/
+.red-card {
+   Display:flex;
+   height: 100px;
+   width: calc(100%);
+   padding:150px;
+   background: red;
+}
+
+.yellow-card {
+    Display:flex;
+    width:calc(100%);
+    padding:500px;
+    background: yellow;
+}
+
+
+/* Styles for screens with a maximum width of 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    h1{
+            font-size: 15px;
+            padding:5px;
+    }
+
+    h3{
+        font-size: 12px;
+        padding:5px;
+    }
+
+    p {
+        font-size: 10px;
+        padding:5px;
+    }
+}
+
+/* Styles for screens with a minimum width of 768px (typical tablets and desktops) */
+@media (min-width: 768px) {
+    h1{
+            font-size: 15px;
+            padding:5px;
+    }
+
+    h3{
+        font-size: 12px;
+        padding:5px;
+    }
+
+    p {
+        font-size: 10px;
+        padding:5px;
+    }
+
+
+    /*Yellow/Orange div*/
+    #secondDiv {
+        Display:flex;
+        flex-direction:column;
+        height: 100px;
+        width: 100px;
+        padding:calc(20%);
+        background: orange;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #secondDiv a:hover {
+    overflow: visible;
+    }
+}
+
+

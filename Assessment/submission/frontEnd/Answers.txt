@@ -1,0 +1,54 @@
+
+QUESTION 1: CSS QUESTIONS:
+
+/*/ Q: What will the colour of both div elements be?*/
+/*  A: First div - Red*/
+/*     Second div - Yellow*/
+
+
+QUESTION 2: DYNAMIC JAVASCRIPT QUESTIONS:
+
+//function compareIt(num1, num2) {
+
+//    return num1 == num2;
+//}
+
+//compareIt(5, "5");
+
+//Q: Why will the function call return true?
+ // A: In this case, the == operator will convert the number 5 to a string so that it can be compared to the string "5".
+ //    After it's been converted, both values are the same, and the comparison evaluates to true.
+
+//Q: How could one change this function so that data types are checked as well as values?
+
+// A: when I  want to check both the value and data type match, I prefer to use
+//    the strict equality operator ===. If you were to use compareIt(5, "5"); with the strict equality operator,
+//    it would return false because 5 and "5" are of different data types (number and string).
+
+
+QUESTION 3: FRONT END QUESTIONS
+
+/*
+Q:How would you make a web page mobile friendly (i.e responsive)?
+Provide examples of this.
+
+A: I've created this page in a dynamic way with css so you may see how I'd make it dynamic. Please note this is
+ rough draft and if I had more time it would look a lot better.
+
+Q: What is the benefit of bundling .js scripts into one file?
+A: Bundling .js scripts lead to better optimization for the browser e.g. better load time, caching,
+easy maintenance and a better user experience for clients.
+
+Q:What needs to be done to ensure the browser understands Sass styling?
+
+A: In order for the browser understands Sass styling, you need to compile your Sass code into standard CSS code.
+Sass is a preprocessor for CSS, which means it's not directly understood by web browsers.
+
+Q:What should be done to ensure browser compatibility with newer flavours of JavaScript like ES6/7?
+
+A: We always need to make sure we test our web applications on different browsers and versions to identify
+any compatibility issues. We also need to set a minimum supported browser version just in case the latest
+one doesn't work.
+*/
+
+
